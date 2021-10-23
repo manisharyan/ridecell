@@ -1,19 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="12.336851">
-    <testcase classname="Compare repositories in UI and through API" name="To perform comparison of list of repositories and their description" time="12.336851">
-        <failure message="java.lang.AssertionError&#10;&#9;at org.junit.Assert.fail(Assert.java:87)&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:42)&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:53)&#10;&#9;at pages.RepositoryPage.compareDescription(RepositoryPage.java:63)&#10;&#9;at stepdef.CompareRepoStep.i_compare_the_values_against_the_values_received_through_API_response(CompareRepoStep.java:34)&#10;&#9;at ✽.Then I compare the values against the values received through API response(compare.feature:8)&#10;"><![CDATA[Given I am on the landing page of Django github repo........................passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="12.156819">
+    <testcase classname="Compare repositories in UI and through API" name="To perform comparison of list of repositories and their description" time="12.156819">
+        <system-out><![CDATA[Given I am on the landing page of Django github repo........................passed
 And I click on repositories option..........................................passed
 Then I should be able to see and capture all the listed repositories and their description.passed
-Then I compare the values against the values received through API response..failed
-
-StackTrace:
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:87)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at org.junit.Assert.assertTrue(Assert.java:53)
-	at pages.RepositoryPage.compareDescription(RepositoryPage.java:63)
-	at stepdef.CompareRepoStep.i_compare_the_values_against_the_values_received_through_API_response(CompareRepoStep.java:34)
-	at ✽.Then I compare the values against the values received through API response(compare.feature:8)
-]]></failure>
+Then I compare the values against the values received through API response..passed
+]]></system-out>
     </testcase>
 </testsuite>

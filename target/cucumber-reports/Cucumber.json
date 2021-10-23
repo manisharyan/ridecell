@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 133596785,
+              "duration": 162356520,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 184701938,
+              "duration": 228107585,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6438288746,
+              "duration": 6097841676,
               "status": "passed"
             },
             "line": 5,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 1038895164,
+              "duration": 1072454876,
               "status": "passed"
             },
             "line": 6,
@@ -58,7 +58,7 @@
           },
           {
             "result": {
-              "duration": 736440407,
+              "duration": 735836698,
               "status": "passed"
             },
             "line": 7,
@@ -70,9 +70,8 @@
           },
           {
             "result": {
-              "duration": 3804927505,
-              "error_message": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:87)\n\tat org.junit.Assert.assertTrue(Assert.java:42)\n\tat org.junit.Assert.assertTrue(Assert.java:53)\n\tat pages.RepositoryPage.compareDescription(RepositoryPage.java:63)\n\tat stepdef.CompareRepoStep.i_compare_the_values_against_the_values_received_through_API_response(CompareRepoStep.java:34)\n\tat ✽.Then I compare the values against the values received through API response(compare.feature:8)\n",
-              "status": "failed"
+              "duration": 3860221411,
+              "status": "passed"
             },
             "line": 8,
             "name": "I compare the values against the values received through API response",

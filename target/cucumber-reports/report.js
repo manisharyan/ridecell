@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 133596785,
+  "duration": 162356520,
   "status": "passed"
 });
 formatter.scenario({
@@ -48,33 +48,32 @@ formatter.match({
   "location": "CompareRepoStep.i_am_on_the_landing_page_of_Django_github_repo()"
 });
 formatter.result({
-  "duration": 6438288746,
+  "duration": 6097841676,
   "status": "passed"
 });
 formatter.match({
   "location": "CompareRepoStep.i_click_on_repositories_option()"
 });
 formatter.result({
-  "duration": 1038895164,
+  "duration": 1072454876,
   "status": "passed"
 });
 formatter.match({
   "location": "CompareRepoStep.i_should_be_able_to_see_and_capture_all_the_listed_repositories_and_their_description()"
 });
 formatter.result({
-  "duration": 736440407,
+  "duration": 735836698,
   "status": "passed"
 });
 formatter.match({
   "location": "CompareRepoStep.i_compare_the_values_against_the_values_received_through_API_response()"
 });
 formatter.result({
-  "duration": 3804927505,
-  "error_message": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:87)\n\tat org.junit.Assert.assertTrue(Assert.java:42)\n\tat org.junit.Assert.assertTrue(Assert.java:53)\n\tat pages.RepositoryPage.compareDescription(RepositoryPage.java:63)\n\tat stepdef.CompareRepoStep.i_compare_the_values_against_the_values_received_through_API_response(CompareRepoStep.java:34)\n\tat ✽.Then I compare the values against the values received through API response(compare.feature:8)\n",
-  "status": "failed"
+  "duration": 3860221411,
+  "status": "passed"
 });
 formatter.after({
-  "duration": 184701938,
+  "duration": 228107585,
   "status": "passed"
 });
 });
