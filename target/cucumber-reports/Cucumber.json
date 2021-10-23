@@ -1,0 +1,99 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 133596785,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "To perform comparison of list of repositories and their description",
+        "description": "",
+        "id": "compare-repositories-in-ui-and-through-api;to-perform-comparison-of-list-of-repositories-and-their-description",
+        "after": [
+          {
+            "result": {
+              "duration": 184701938,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6438288746,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the landing page of Django github repo",
+            "match": {
+              "location": "CompareRepoStep.i_am_on_the_landing_page_of_Django_github_repo()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1038895164,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on repositories option",
+            "match": {
+              "location": "CompareRepoStep.i_click_on_repositories_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 736440407,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should be able to see and capture all the listed repositories and their description",
+            "match": {
+              "location": "CompareRepoStep.i_should_be_able_to_see_and_capture_all_the_listed_repositories_and_their_description()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3804927505,
+              "error_message": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:87)\n\tat org.junit.Assert.assertTrue(Assert.java:42)\n\tat org.junit.Assert.assertTrue(Assert.java:53)\n\tat pages.RepositoryPage.compareDescription(RepositoryPage.java:63)\n\tat stepdef.CompareRepoStep.i_compare_the_values_against_the_values_received_through_API_response(CompareRepoStep.java:34)\n\tat ✽.Then I compare the values against the values received through API response(compare.feature:8)\n",
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "I compare the values against the values received through API response",
+            "match": {
+              "location": "CompareRepoStep.i_compare_the_values_against_the_values_received_through_API_response()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Compare repositories in UI and through API",
+    "description": "",
+    "id": "compare-repositories-in-ui-and-through-api",
+    "keyword": "Feature",
+    "uri": "compare.feature"
+  }
+]
